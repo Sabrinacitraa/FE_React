@@ -1,0 +1,59 @@
+.image img{
+    width: cover;
+}
+
+.content{
+    margin: 20px;
+    display: flex;
+    
+}
+.content h5{
+    padding-top: 20rem;
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 4rem;
+
+}
+
+.content h2{
+    margin: 60px;
+    margin-top: 2rem;
+    margin-right: 28rem;
+}
+
+.content2 h2{
+    
+    margin: 2rem;
+    margin-left: 8rem;
+    margin-right: 7rem;
+    padding-top: 8rem;
+    
+    
+}
+.content2 h5{  
+    text-align: left;  
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 5rem; 
+    margin-right: 4rem;  
+    
+}
+.content2{
+    display: flex;
+}
+
+h2{
+    padding-top: 5rem;
+    margin: 2rem;
+    margin-left: 8rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3{
+    margin: 2rem;
+    margin-left: 8rem;
+    
+    
+}
