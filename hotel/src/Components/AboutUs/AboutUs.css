@@ -27,7 +27,7 @@
     margin: 2rem;
     margin-left: 8rem;
     margin-right: 7rem;
-    padding-top: 8rem;
+    padding-top: 2rem;
     
     
 }
@@ -35,7 +35,6 @@
     text-align: left;  
     font-size: 18px;
     font-weight: 300;
-    padding-top: 5rem; 
     margin-right: 4rem;  
     
 }
@@ -52,8 +51,49 @@ h2{
 }
 
 h3{
+    font-size: 26px;
     margin: 2rem;
+    margin-left: 8rem;  
+}
+
+/* AboutUs.css */
+
+.gallery {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+  }
+  
+  .gallery-item {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  .gallery-item img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .description{
+    display: flex;
     margin-left: 8rem;
-    
+    margin-bottom: 3rem;
+    align-items: center;
+    gap: 30rem;
+
+  }
+
+  .description .text1{
+    font-weight: bold;
+    font-size: 25px;
+  }
+.bottom{
+    padding-top: 0rem;
     
 }
+  .ruler {
+    display: block;
+    border: none;
+    border-top: 1px solid #000; /* Warna garis */
+    width: 70%;
+  } 

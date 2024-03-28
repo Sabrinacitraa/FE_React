@@ -7,21 +7,37 @@
     justify-content: center;
     margin: auto;
   }
+
+  .headerText h5{
+    position: absolute;
+    color: white;
+    left: 8rem;
+    top: 12rem;
+    font-size: 44px;
+  }
   
+  .headerText h6{
+    font-style: italic;
+    position: absolute;
+    color: white;
+    left: 8rem;
+    top: 14.5rem;
+    font-size: 40px;
+    font-weight: 600;
+
+  }
+
   img {
     width: 1470px;
     height: 700px;
     justify-content: center;
     align-items: center;
   }
-
   
   .img .ke1{
     position: absolute;
     margin-bottom: 18rem;
   }
-  
- 
   
   .horizontal-grid {
     display: flex;
@@ -92,14 +108,26 @@
   .textContent {
     margin-top: 4rem; 
     font-size: 18px;
+    justify-content: center;
     text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 20px;
   }
 
+
+  .textContent h2{
+    font-size: 44px;
+    
+  }
   
+  .textContent .subttitle2{
+    font-size: 28px;
+    font-weight: 500;
+    top: 0;
+  }
   
+
   .content3 .link{
     display: flex;
     gap: 7rem;
@@ -114,7 +142,7 @@
 }
 
 .content3 img{
-  margin-left: 10rem;
+margin-left: 10rem;
 width: 90vh;
 height: auto;
 border-radius: 10px;
@@ -130,6 +158,5 @@ border-radius: 10px;
   font-size: 16px;
 }
  
-  
 
   
