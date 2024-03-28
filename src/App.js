@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/LandingPage/LandingPage';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Gallery from './Components/Gallery/Gallery';
-// import Login from './Components/Login/Login';
+import Login from './Components/Login/Login';
 // import Booking from './Components/Booking/Booking';
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
            {/* <Route path='/about' element={<Booking />} />  */}
             <Route path='/AboutUs' element={<AboutUs />} />
             <Route path='/Gallery' element={<Gallery />} />
-            {/* <Route path='/Login' element={<Login />} /> */}
+             <Route path='/Login' element={<Login />} /> 
             </Routes>
             <Footer />
         </Router>

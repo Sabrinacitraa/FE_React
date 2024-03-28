@@ -11,51 +11,56 @@
   
   .background{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     min-height: 100vh;
+    /*background-color: #4285F4;*/
     background-image: url("https://www.fourpointssurabaya.co.id/resourcefiles/gallery-image-sec_rightbot_left/subfp-galeri-3.jpg?version=1162024073317");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     filter: blur(12px);
   }
-  /* .conten {
+
+   /*.conten {
+    
     color: #fff;
     margin-top: 200px;
     text-align: center;
   } */
   
-  .container {
+  .container-a {
+    
       display: block;
-      
       justify-content: center;
       align-items: center;
   }
   
   .box {
-    width: 600px; /* Sesuaikan lebar box putih sesuai kebutuhan Anda */
-    height: 600px; /* Sesuaikan tinggi box putih sesuai kebutuhan Anda */
+    margin-top: 200px;
+    width: 1280px; 
+    height: 600px; 
+    align-content: center;
     background-color: white;
-    border: 1px solid #ccc; /* Optional: Tambahkan border sesuai kebutuhan */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Tambahkan efek bayangan */
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin: auto;
     border-radius: 30px;
+    margin-left: 100px;
   }
   
   .header {
-    padding-top: 48px;
+    margin-top: 20px;
+    padding-top: 20px;
     padding-left: 56px;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 kolom pertama */
-    grid-gap: 10px; /* Jarak antar kolom */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; 
+    margin-bottom: 20px;
   }
   
-  .item {
-   
+  .item {  
     padding: 20px;
-    margin-top: 4px;
+    margin-top: 12px;
     margin-left: 48px;
     margin-right: 48px;
     text-align: center;
@@ -65,37 +70,41 @@
   .h1 {
     text-align: center;
   }
+
   .label {
     text-align: center;
-    margin-bottom: 5px; /* Jarak antara setiap label */
+    margin-bottom: 5px; 
   }
   
   .form-login {
     border-radius: 15px;
     width: 770px;
-    padding: 20px 16px;
+    padding: 16px 12px;
     margin: 16px 0;
     box-sizing: border-box;
   }
   
   .submit-btn {
-    margin-top: 10px; /* Jarak antara formulir dan tombol submit */
+    margin-top: 10px; 
   }
   
-  .logo {
+  .logo1 {
     padding-left: 10px;
-    width: 30px;
+    width: 80px;
+  }
+  .logo2 {
+    width: 180px;
+    height: auto;
+    margin-left: 300px;
   }
   
   .text {
     font-size: 22px;
-  
   }
   
   .submit-btn{
     display: inline-block;
     background: #4285F4;
-    
     color: #fff;
     width: 770px;
     height: 44px;
@@ -111,6 +120,7 @@
     place-items: center;
   }
   
+
   .tittle {
     font-size: 16px;
     font-family: 'poppins', sans-serif;

@@ -32,6 +32,7 @@ const Navbar = () => {
                         <button className='btn' onClick={toggleMenu}>
                             <Link to="/Login">Login</Link>
                         </button>
+
                         <button className='btn' onClick={toggleMenu}>
                             <Link to="/signup">Sign Up</Link>
                         </button>

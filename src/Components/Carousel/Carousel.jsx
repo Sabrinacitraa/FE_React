@@ -4,7 +4,7 @@ import './Carousel.css';
 const images = [
     {
         id: 1,
-        title: "GuestRoom",
+        title: "Guest Room",
         image: 'image1',
     },
     {
